@@ -1,0 +1,61 @@
+{
+  "expo": {
+    "name": "react-native-ts-boilerplate",
+    "sdkVersion": "33.0.0",
+    "version": "1.0",
+    "slug": "rn-boilerplate",
+    "privacy": "unlisted",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.onka.rnboilerplate",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "publishBundlePath": "ios/project13/Supporting/shell-app.bundle",
+      "publishManifestPath": "ios/project13/Supporting/shell-app-manifest.json"
+    },
+    "android": {
+      "package": "com.onka.rnboilerplate",
+      "versionCode": 1,
+      "publishBundlePath": "android\\app\\src\\main\\assets\\shell-app.bundle",
+      "publishManifestPath": "android\\app\\src\\main\\assets\\shell-app-manifest.json"
+    },
+    "orientation": "portrait",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "backgroundColor": "#409DA4",
+      "resizeMode": "contain"
+    },
+    "primaryColor": "#122c65",
+    "icon": "./src/assets/icon.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "entryPoint": "index.js",
+    "packagerOpts": {
+      "config": "./rn-cli.config.js",
+      "sourceExts": [
+        "js",
+        "ts",
+        "tsx",
+        "json"
+      ],
+      "transformer": "node_modules/react-native-typescript-transformer/index.js"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "isDetached": true,
+    "detach": {
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.11.4-sdk33.0.0-6a4f0f3e-1f1b-4c33-9155-d0237f6d7c34.tar.gz",
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.9.0-sdk31.0.0-250a3991-b623-4f9c-b07f-0b9ed7e8c4c9.tar.gz"
+    },
+    "scheme": "rnboilerplate",
+    "extra": {
+      "name": "RN Boilerplate",
+      "dataVersion": 1
+    }
+  }
+}

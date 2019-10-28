@@ -1,0 +1,19 @@
+{
+  "name": "commonlib",
+  "version": "0.0.1",
+  "private": true,
+  "description": "",
+  "main": "index.ts",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "onka13",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": ">=0.53.0"
+  }
+}

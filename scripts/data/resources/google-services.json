@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1058900002719",
+    "firebase_url": "https://reactnativeboilerplate-13.firebaseio.com",
+    "project_id": "reactnativeboilerplate-13",
+    "storage_bucket": "reactnativeboilerplate-13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058900002719:android:77f284e17d3ecaf6ae1faa",
+        "android_client_info": {
+          "package_name": "com.onka.rnboilerplate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058900002719-viplp46uel8igoutkrnvdjamfqc3e4nh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIgbNB2TvPifQkyD0vmTfrrfKWa8LI_Zs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058900002719-viplp46uel8igoutkrnvdjamfqc3e4nh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1058900002719-lp6m8kehkopr5alqc078eg74pre8erpp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.onka.rnboilerplate"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

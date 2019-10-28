@@ -1,0 +1,15 @@
+.expo/
+node_modules
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+ios/Pods
+app/android/app/maven
+app/android/.gradle
+app/android/.idea
+app/android/build
+app/android/app/build

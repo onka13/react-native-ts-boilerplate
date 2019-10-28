@@ -1,0 +1,21 @@
+{
+	"name": "scripts",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"prepareAndroid": "node prepareAndroid.js",
+		"prepareAsset": "node prepareAsset.js",
+		"prepareApp": "node prepareApp.js",
+		"keystore": "node createKeystore.js app.ks alias1 pass123",
+		"aClean": "cd ../app/android && gradlew clean",
+		"aBuild": "cd ../app/android && gradlew assembleDebug --stacktrace",
+		"aInstall": "cd ../app/android && gradlew installDebug --stacktrace",
+		"aRelease": "cd ../app/android && gradlew assembleRelease --stacktrace",
+		"aBundle": "cd ../app/android && gradlew bundleRelease --stacktrace"
+	},
+	"dependencies": {
+		"sharp": "^0.22.1"
+	},
+	"devDependencies": {
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"noEmit": true,
+		"sourceMap": true,
+		"experimentalDecorators": true,
+		"jsx": "react-native",
+		"lib": ["es2015", "esnext"],
+		"allowSyntheticDefaultImports": true,
+		"moduleResolution": "node",
+		"noEmitHelpers": true,
+		"importHelpers": true,
+		"strict": true,
+		"noImplicitReturns": true,
+		"noUnusedLocals": true,
+		"resolveJsonModule": true
+	}
+}

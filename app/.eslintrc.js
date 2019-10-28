@@ -1,0 +1,43 @@
+module.exports = {
+	parser: '@typescript-eslint/parser',
+	env: {
+		es6: true,
+		node: true,
+		jest: true,
+	},
+	extends: ['eslint:recommended'],
+	globals: {
+		__DEV__: false,
+		Atomics: false,
+		ErrorUtils: false,
+		FormData: false,
+		SharedArrayBuffer: false,
+		XMLHttpRequest: false,
+		alert: false,
+		cancelAnimationFrame: false,
+		cancelIdleCallback: false,
+		clearImmediate: false,
+		clearInterval: false,
+		clearTimeout: false,
+		fetch: false,
+		navigator: false,
+		process: false,
+		requestAnimationFrame: false,
+		requestIdleCallback: false,
+		setImmediate: false,
+		setInterval: false,
+		setTimeout: false,
+		window: false,
+	},
+	parserOptions: {
+		ecmaVersion: 6,
+		ecmaFeatures: {
+			jsx: true,
+		},
+		sourceType: 'module',
+	},
+	plugins: ['react'],
+	rules: {
+		'no-unused-vars': 'warn',
+	},
+};
