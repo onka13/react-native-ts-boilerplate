@@ -6,6 +6,7 @@
 		"prepareAndroid": "node prepareAndroid.js",
 		"prepareAsset": "node prepareAsset.js",
 		"prepareApp": "node prepareApp.js",
+		"generateIcons": "node resizeIcon.js",
 		"keystore": "node createKeystore.js app.ks alias1 pass123",
 		"aClean": "cd ../app/android && gradlew clean",
 		"aBuild": "cd ../app/android && gradlew assembleDebug --stacktrace",
