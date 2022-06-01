@@ -15,7 +15,7 @@
 		"aBundle": "cd ../app/android && gradlew bundleRelease --stacktrace"
 	},
 	"dependencies": {
-		"sharp": "^0.22.1"
+		"sharp": "^0.30.5"
 	},
 	"devDependencies": {
 	}
